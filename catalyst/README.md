@@ -5,4 +5,4 @@ This directory contains official versioned release packages and manifests for th
 ## Release Categories
 
 - **[framework/](framework/README.md)**: Catalyst Framework core releases (specifications, templates, definitions, and plugins without modules).
-- **[module/](module/README.md)**: Catalyst Process Modules (e.g. Software Engineering process module).
+- **[modules/](modules/README.md)**: Catalyst Process Modules (e.g. Software Engineering process module).

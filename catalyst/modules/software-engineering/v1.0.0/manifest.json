@@ -1,0 +1,8 @@
+{
+  "id": "software-engineering",
+  "name": "Software Engineering Process Module",
+  "version": "1.0.0",
+  "description": "Standard software engineering process module governing rules, requirements, bugs, tests, steps, features, roadmaps, workflows, and reconciliations.",
+  "frameworkVersion": ">=0.34.0",
+  "entry": "ui/index.js"
+}
