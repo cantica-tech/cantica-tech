@@ -1,0 +1,6 @@
+{
+  "id": "catalyst-framework",
+  "name": "Catalyst Framework",
+  "version": "0.34.0",
+  "description": "Core Catalyst Framework specification, templates, definitions, and plugins without modules."
+}
