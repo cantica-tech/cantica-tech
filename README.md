@@ -1,1 +1,7 @@
-# cantica-tech
+# CanticaTech Release Artifacts Repository
+
+This repository serves as the central distribution repository for CanticaTech release artifacts, specifications, framework releases, and process modules.
+
+## Repository Structure
+
+- **[catalyst/](catalyst/README.md)**: Official release archives, versioned manifests, and distribution packages for the Catalyst Framework and process modules.
