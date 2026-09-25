@@ -1,8 +1,8 @@
-# Catalyst Framework & Module Releases
+# Catalyst Kernel & Module Releases
 
-This directory contains official versioned release packages and manifests for the Catalyst Framework specification and its associated process modules.
+This directory contains official versioned release packages and manifests for the Catalyst framework: its kernel and its process modules.
 
 ## Release Categories
 
-- **[framework/](framework/README.md)**: Catalyst Framework core releases (specifications, templates, definitions, and plugins without modules).
+- **[kernel/](kernel/README.md)**: Catalyst kernel releases (the module-independent part of the framework: specifications, templates, definitions, and plugins).
 - **[modules/](modules/README.md)**: Catalyst Process Modules (e.g. Software Engineering process module).

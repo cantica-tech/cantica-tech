@@ -1,0 +1,9 @@
+# Catalyst Kernel Releases
+
+This directory contains versioned releases of the Catalyst kernel (the module-independent part of the framework: specifications, templates, definitions, and plugins).
+
+## Available Kernel Releases
+
+| Version | Manifest | Archive | Description |
+| ------- | -------- | ------- | ----------- |
+| `v0.34.0` | [`v0.34.0/manifest.json`](v0.34.0/manifest.json) | [`v0.34.0/kernel-v0.34.0.zip`](v0.34.0/kernel-v0.34.0.zip) | Catalyst kernel: the module-independent part of the framework (specifications, templates, definitions, and plugins). |
