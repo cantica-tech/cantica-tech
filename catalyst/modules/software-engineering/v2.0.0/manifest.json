@@ -1,0 +1,9 @@
+{
+  "id": "software-engineering",
+  "name": "Software Engineering Process Module",
+  "version": "2.0.0",
+  "description": "Standard software engineering process module governing requirements, bugs, house-keeping, tests, steps, features, and roadmaps.",
+  "kernelVersion": ">=0.36.0",
+  "frameworkVersion": ">=0.36.0",
+  "entry": "ui/index.js"
+}
