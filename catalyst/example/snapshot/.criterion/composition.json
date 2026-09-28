@@ -1,0 +1,9 @@
+{
+  "module": "software-engineering",
+  "userid": "Tc0nvEx1",
+  "rule_docs": [
+    "conversion-rules.md"
+  ],
+  "test_locations": "`tests/`",
+  "rules_dir": "rules"
+}

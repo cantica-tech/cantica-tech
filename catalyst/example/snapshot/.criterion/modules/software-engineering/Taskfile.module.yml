@@ -1,0 +1,69 @@
+# software-engineering module tasks — deployed asset, not hand-edited.
+#
+# Appended to the `tasks:` block of the deployment's
+# `.criterion/Taskfile.common.yml` on instantiation and on
+# `/sync-framework` (`MODULE-SPECIFICATION.md` §6.5). One task per command
+# in this module's `code-of-conduct.module.md` §4, in the same thin-dispatch
+# shape as the kernel's own tasks: `{{.AGENT_CMD}}` is passed in from the
+# project's root `Taskfile.yml`, never declared here.
+#
+# Usage: task <command-name> -- <arguments>
+#   e.g. task create-bug -- "flaky test in checkout flow"
+
+version: "3"
+
+tasks:
+  create-bug:
+    desc: "Create a new bug artifact and register it in bugs/bugs.md"
+    cmds:
+      - '{{.AGENT_CMD}} "/create-bug {{.CLI_ARGS}}"'
+
+  create-req:
+    desc: "Create a new requirement artifact and register it in requirements/requirements.md"
+    cmds:
+      - '{{.AGENT_CMD}} "/create-req {{.CLI_ARGS}}"'
+
+  create-requirement:
+    desc: "Alias of create-req"
+    cmds:
+      - '{{.AGENT_CMD}} "/create-requirement {{.CLI_ARGS}}"'
+
+  create-feature:
+    desc: "Create a new feature entry in features/features.md (not rule-linked)"
+    cmds:
+      - '{{.AGENT_CMD}} "/create-feature {{.CLI_ARGS}}"'
+
+  create-step:
+    desc: "Create a new step against an existing requirement or bug: <REQ-id|BUG-id>"
+    cmds:
+      - '{{.AGENT_CMD}} "/create-step {{.CLI_ARGS}}"'
+
+  create-test:
+    desc: "Create a new test artifact and register it in tests/tests.md"
+    cmds:
+      - '{{.AGENT_CMD}} "/create-test {{.CLI_ARGS}}"'
+
+  roadmap-add:
+    desc: "Ingest a new named roadmap from a local file: <name> <file>"
+    cmds:
+      - '{{.AGENT_CMD}} "/roadmap-add {{.CLI_ARGS}}"'
+
+  roadmap-remove:
+    desc: "Delete or retire a named roadmap: <name>"
+    cmds:
+      - '{{.AGENT_CMD}} "/roadmap-remove {{.CLI_ARGS}}"'
+
+  roadmap-update:
+    desc: "Re-ingest a file as the new full, authoritative roadmap version: <name> <file>"
+    cmds:
+      - '{{.AGENT_CMD}} "/roadmap-update {{.CLI_ARGS}}"'
+
+  roadmap-merge:
+    desc: "Fold a partial delta file into an existing roadmap: <name> <update file>"
+    cmds:
+      - '{{.AGENT_CMD}} "/roadmap-merge {{.CLI_ARGS}}"'
+
+  show-backlog:
+    desc: "Summarize open work/blockers and refresh BACKLOG.md and roadmaps"
+    cmds:
+      - '{{.AGENT_CMD}} "/show-backlog {{.CLI_ARGS}}"'

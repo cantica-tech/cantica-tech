@@ -1,0 +1,15 @@
+{
+  "users": [
+    {
+      "name": "Example Maintainer",
+      "roles": [
+        "Admin"
+      ],
+      "registered": "2026-09-28",
+      "active": true,
+      "notes": "",
+      "userid": "Tc0nvEx1",
+      "git_username": "maintainer"
+    }
+  ]
+}

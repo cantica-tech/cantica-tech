@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ES2022",
+    "moduleResolution": "Bundler",
+    "lib": ["ES2022", "DOM"],
+    "jsx": "react-jsx",
+    "strict": true,
+    "declaration": true,
+    "composite": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist",
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "catalyst-core": ["../../catalyst-ui/packages/catalyst-core/dist/index.d.ts"],
+      "marked": ["../../catalyst-ui/node_modules/marked"],
+      "react": ["../../catalyst-ui/node_modules/@types/react"],
+      "react/*": ["../../catalyst-ui/node_modules/@types/react/*"]
+    }
+  },
+  "include": ["*.ts", "*.tsx"]
+}
