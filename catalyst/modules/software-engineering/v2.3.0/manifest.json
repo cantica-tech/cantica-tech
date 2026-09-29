@@ -3,7 +3,7 @@
   "name": "Software Engineering Process Module",
   "version": "2.3.0",
   "description": "Standard software engineering process module governing requirements, bugs, house-keeping, tests, steps, features, and roadmaps.",
-  "kernelVersion": ">=0.42.0",
-  "frameworkVersion": ">=0.42.0",
+  "kernelVersion": ">=0.42.1",
+  "frameworkVersion": ">=0.42.1",
   "entry": "ui/index.js"
 }
