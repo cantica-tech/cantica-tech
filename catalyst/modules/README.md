@@ -6,4 +6,4 @@ This directory contains versioned process modules for the Catalyst framework.
 
 | Module | Latest Version | Requires Kernel | Directory |
 | ------ | -------------- | --------------- | --------- |
-| Software Engineering Process Module | `v2.3.0` | `>=0.42.1` | [`software-engineering/`](software-engineering/README.md) |
+| Software Engineering Process Module | `v2.3.0` | `>=0.42.2` | [`software-engineering/`](software-engineering/README.md) |
