@@ -8,6 +8,7 @@ Install one with `code --install-extension <file>.vsix`.
 
 | Version | Requires Kernel | Manifest | Package | Name |
 | ------- | --------------- | -------- | ------- | ---- |
+| `v0.36.0` | `>=0.45.0` | [`v0.36.0/manifest.json`](v0.36.0/manifest.json) | [`v0.36.0/catalyst-host-vscode-v0.36.0.vsix`](v0.36.0/catalyst-host-vscode-v0.36.0.vsix) | Catalyst framework |
 | `v0.35.0` | `>=0.45.0` | [`v0.35.0/manifest.json`](v0.35.0/manifest.json) | [`v0.35.0/catalyst-host-vscode-v0.35.0.vsix`](v0.35.0/catalyst-host-vscode-v0.35.0.vsix) | Catalyst framework |
 | `v0.34.0` | `>=0.44.0` | [`v0.34.0/manifest.json`](v0.34.0/manifest.json) | [`v0.34.0/catalyst-host-vscode-v0.34.0.vsix`](v0.34.0/catalyst-host-vscode-v0.34.0.vsix) | Catalyst framework |
 | `v0.33.2` | `>=0.44.0` | [`v0.33.2/manifest.json`](v0.33.2/manifest.json) | [`v0.33.2/catalyst-host-vscode-v0.33.2.vsix`](v0.33.2/catalyst-host-vscode-v0.33.2.vsix) | Catalyst framework |
