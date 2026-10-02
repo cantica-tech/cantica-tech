@@ -1,0 +1,9 @@
+{
+  "id": "catalyst-host-vscode",
+  "name": "Catalyst framework",
+  "version": "0.37.0",
+  "description": "Navigate a catalyst-governed project's rules, requirements, and drift right from the editor — chain inspector, health board with click-to-jump, propose-fix, and an authoring composer, all writing through the governing agent.",
+  "kernelVersion": ">=0.45.0",
+  "vscode": "^1.85.0",
+  "file": "catalyst-host-vscode-v0.37.0.vsix"
+}
