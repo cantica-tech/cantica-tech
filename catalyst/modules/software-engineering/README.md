@@ -6,6 +6,7 @@ This directory contains versioned releases for the `software-engineering` proces
 
 | Version | Requires Kernel | Manifest | Archive | Description |
 | ------- | --------------- | -------- | ------- | ----------- |
+| `v2.6.0` | `>=0.49.0` | [`v2.6.0/manifest.json`](v2.6.0/manifest.json) | [`v2.6.0/software-engineering-v2.6.0.zip`](v2.6.0/software-engineering-v2.6.0.zip) | Standard software engineering process module governing requirements, bugs, house-keeping, tests, steps, features, and roadmaps. |
 | `v2.5.0` | `>=0.47.0` | [`v2.5.0/manifest.json`](v2.5.0/manifest.json) | [`v2.5.0/software-engineering-v2.5.0.zip`](v2.5.0/software-engineering-v2.5.0.zip) | Standard software engineering process module governing requirements, bugs, house-keeping, tests, steps, features, and roadmaps. |
 | `v2.4.0` | `>=0.46.0` | [`v2.4.0/manifest.json`](v2.4.0/manifest.json) | [`v2.4.0/software-engineering-v2.4.0.zip`](v2.4.0/software-engineering-v2.4.0.zip) | Standard software engineering process module governing requirements, bugs, house-keeping, tests, steps, features, and roadmaps. |
 | `v2.3.1` | `>=0.42.0` | [`v2.3.1/manifest.json`](v2.3.1/manifest.json) | [`v2.3.1/software-engineering-v2.3.1.zip`](v2.3.1/software-engineering-v2.3.1.zip) | Standard software engineering process module governing requirements, bugs, house-keeping, tests, steps, features, and roadmaps. |
