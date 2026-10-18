@@ -1,0 +1,9 @@
+{
+  "id": "risk-management",
+  "name": "Risk Management Module",
+  "version": "0.1.0",
+  "description": "A risk management process module governing risks, the controls that treat them, and the incidents that show where they materialised.",
+  "kernelVersion": ">=0.83.0",
+  "frameworkVersion": ">=0.83.0",
+  "entry": "ui/index.js"
+}
