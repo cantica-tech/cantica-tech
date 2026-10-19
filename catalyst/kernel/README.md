@@ -6,6 +6,8 @@ This directory contains versioned releases of the Catalyst kernel (the module-in
 
 | Version | Manifest | Archive | Description |
 | ------- | -------- | ------- | ----------- |
+| `v0.92.0` | [`v0.92.0/manifest.json`](v0.92.0/manifest.json) | [`v0.92.0/kernel-v0.92.0.zip`](v0.92.0/kernel-v0.92.0.zip) | Catalyst kernel: the module-independent part of the framework (specifications, templates, definitions, and plugins). |
+| `v0.91.0` | [`v0.91.0/manifest.json`](v0.91.0/manifest.json) | [`v0.91.0/kernel-v0.91.0.zip`](v0.91.0/kernel-v0.91.0.zip) | Catalyst kernel: the module-independent part of the framework (specifications, templates, definitions, and plugins). |
 | `v0.90.0` | [`v0.90.0/manifest.json`](v0.90.0/manifest.json) | [`v0.90.0/kernel-v0.90.0.zip`](v0.90.0/kernel-v0.90.0.zip) | Catalyst kernel: the module-independent part of the framework (specifications, templates, definitions, and plugins). |
 | `v0.89.0` | [`v0.89.0/manifest.json`](v0.89.0/manifest.json) | [`v0.89.0/kernel-v0.89.0.zip`](v0.89.0/kernel-v0.89.0.zip) | Catalyst kernel: the module-independent part of the framework (specifications, templates, definitions, and plugins). |
 | `v0.88.0` | [`v0.88.0/manifest.json`](v0.88.0/manifest.json) | [`v0.88.0/kernel-v0.88.0.zip`](v0.88.0/kernel-v0.88.0.zip) | Catalyst kernel: the module-independent part of the framework (specifications, templates, definitions, and plugins). |
