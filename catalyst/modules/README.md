@@ -6,5 +6,5 @@ This directory contains versioned process modules for the Catalyst framework.
 
 | Module | Latest Version | Requires Kernel | Directory |
 | ------ | -------------- | --------------- | --------- |
-| Cantica Knowledge Base Module | `v0.1.0` | `>=0.102.0` | [`cantica-knowledge-base/`](cantica-knowledge-base/README.md) |
+| Knowledge Base Module | `v0.2.0` | `>=0.102.0` | [`knowledge-base/`](knowledge-base/README.md) |
 | Software Engineering Process Module | `v3.4.1` | `>=0.83.0` | [`software-engineering/`](software-engineering/README.md) |
