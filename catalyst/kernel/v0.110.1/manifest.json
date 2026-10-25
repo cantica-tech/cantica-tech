@@ -1,0 +1,6 @@
+{
+  "id": "catalyst-kernel",
+  "name": "Catalyst Kernel",
+  "version": "0.110.1",
+  "description": "Catalyst kernel: the module-independent part of the framework (specifications, templates, definitions, and plugins)."
+}
