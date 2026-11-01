@@ -8,6 +8,7 @@ Install one with `code --install-extension <file>.vsix`.
 
 | Version | Requires Kernel | Manifest | Package | Name |
 | ------- | --------------- | -------- | ------- | ---- |
+| `v0.72.0` | `>=0.54.0` | [`v0.72.0/manifest.json`](v0.72.0/manifest.json) | [`v0.72.0/catalyst-host-vscode-v0.72.0.vsix`](v0.72.0/catalyst-host-vscode-v0.72.0.vsix) | Catalyst Studio — rules, journal and traceability for AI-assisted development |
 | `v0.71.0` | `>=0.54.0` | [`v0.71.0/manifest.json`](v0.71.0/manifest.json) | [`v0.71.0/catalyst-host-vscode-v0.71.0.vsix`](v0.71.0/catalyst-host-vscode-v0.71.0.vsix) | Catalyst Studio — rules, journal and traceability for AI-assisted development |
 | `v0.70.0` | `>=0.54.0` | [`v0.70.0/manifest.json`](v0.70.0/manifest.json) | [`v0.70.0/catalyst-host-vscode-v0.70.0.vsix`](v0.70.0/catalyst-host-vscode-v0.70.0.vsix) | Catalyst Studio — rules, journal and traceability for AI-assisted development |
 | `v0.69.0` | `>=0.54.0` | [`v0.69.0/manifest.json`](v0.69.0/manifest.json) | [`v0.69.0/catalyst-host-vscode-v0.69.0.vsix`](v0.69.0/catalyst-host-vscode-v0.69.0.vsix) | Catalyst Studio — rules, journal and traceability for AI-assisted development |
