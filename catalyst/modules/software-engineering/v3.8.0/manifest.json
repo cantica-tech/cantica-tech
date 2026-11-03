@@ -1,0 +1,8 @@
+{
+  "id": "software-engineering",
+  "name": "Software Engineering Process Module",
+  "version": "3.8.0",
+  "description": "Standard software engineering process module governing requirements, bugs, house-keeping, tests, steps, features, roadmaps, and decisions.",
+  "kernelVersion": ">=0.123.0",
+  "frameworkVersion": ">=0.123.0"
+}
