@@ -1,0 +1,42 @@
+{
+  "id": "correlate-app",
+  "name": "correlate-app",
+  "version": "0.1.1",
+  "description": "Correlates container telemetry with service logs on one shared, clickable timeline; its Sump collects them.",
+  "sumpImage": "ghcr.io/cantica-tech/correlate-sump:0.1.1",
+  "release": "correlate-v0.1.1",
+  "files": [
+    {
+      "file": "correlate-app-0.1.1-linux-x86_64.AppImage",
+      "system": "Linux",
+      "arch": "x86_64",
+      "size": 128261443,
+      "sha256": "58475fb7995503156fef7483ba476318716b21e46db4cabd4bfdb121c75cd8d6",
+      "url": "https://github.com/cantica-tech/cantica-tech/releases/download/correlate-v0.1.1/correlate-app-0.1.1-linux-x86_64.AppImage"
+    },
+    {
+      "file": "correlate-app-0.1.1-win-x64.exe",
+      "system": "Windows",
+      "arch": "x64",
+      "size": 111229514,
+      "sha256": "dcc1047267ee6e4cf86edbc0b628d1f75f4fa1b85254c2ddaf37d1c5266da8df",
+      "url": "https://github.com/cantica-tech/cantica-tech/releases/download/correlate-v0.1.1/correlate-app-0.1.1-win-x64.exe"
+    },
+    {
+      "file": "correlate-app-0.1.1-mac-arm64.dmg",
+      "system": "macOS",
+      "arch": "arm64",
+      "size": 133535958,
+      "sha256": "65d713a735dbc835f6e8d3cc8693f6a4684fee2440c23d37bff8adbf03ad59cf",
+      "url": "https://github.com/cantica-tech/cantica-tech/releases/download/correlate-v0.1.1/correlate-app-0.1.1-mac-arm64.dmg"
+    },
+    {
+      "file": "correlate-app-0.1.1-mac-x64.dmg",
+      "system": "macOS",
+      "arch": "x64",
+      "size": 137075951,
+      "sha256": "fabb4b1eca8242e6f83112f8b21c20dedade52b48e564504ce11fff1f3bae51c",
+      "url": "https://github.com/cantica-tech/cantica-tech/releases/download/correlate-v0.1.1/correlate-app-0.1.1-mac-x64.dmg"
+    }
+  ]
+}
