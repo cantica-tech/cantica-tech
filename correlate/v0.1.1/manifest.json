@@ -8,6 +8,7 @@
   "files": [
     {
       "file": "correlate-app-0.1.1-linux-x86_64.AppImage",
+      "kind": "installer",
       "system": "Linux",
       "arch": "x86_64",
       "size": 128261443,
@@ -16,6 +17,7 @@
     },
     {
       "file": "correlate-app-0.1.1-win-x64.exe",
+      "kind": "installer",
       "system": "Windows",
       "arch": "x64",
       "size": 111229514,
@@ -24,6 +26,7 @@
     },
     {
       "file": "correlate-app-0.1.1-mac-arm64.dmg",
+      "kind": "installer",
       "system": "macOS",
       "arch": "arm64",
       "size": 133535958,
@@ -32,11 +35,122 @@
     },
     {
       "file": "correlate-app-0.1.1-mac-x64.dmg",
+      "kind": "installer",
       "system": "macOS",
       "arch": "x64",
       "size": 137075951,
       "sha256": "fabb4b1eca8242e6f83112f8b21c20dedade52b48e564504ce11fff1f3bae51c",
       "url": "https://github.com/cantica-tech/cantica-tech/releases/download/correlate-v0.1.1/correlate-app-0.1.1-mac-x64.dmg"
+    },
+    {
+      "file": "correlate-sump-0.1.1-linux-amd64.tar",
+      "kind": "sump-image",
+      "system": "Linux (Docker)",
+      "arch": "amd64",
+      "size": 154793984,
+      "sha256": "f6811c0e548a84e5cf1c2d324b235e9b4d0d1f3d086955b3f462bc6893248d8d",
+      "url": "https://github.com/cantica-tech/cantica-tech/releases/download/correlate-v0.1.1/correlate-sump-0.1.1-linux-amd64.tar"
+    },
+    {
+      "file": "correlate-sump-0.1.1-linux-arm64.tar",
+      "kind": "sump-image",
+      "system": "Linux (Docker)",
+      "arch": "arm64",
+      "size": 150306304,
+      "sha256": "d9843624a2c38c3e46f8e977d415cfe890151ff544cef3319042c0250d6c1cc4",
+      "url": "https://github.com/cantica-tech/cantica-tech/releases/download/correlate-v0.1.1/correlate-sump-0.1.1-linux-arm64.tar"
+    }
+  ],
+  "archives": [
+    {
+      "of": "correlate-app-0.1.1-linux-x86_64.AppImage",
+      "parts": [
+        {
+          "file": "correlate-app-0.1.1-linux-x86_64.AppImage.zip.001",
+          "size": 99614720,
+          "sha256": "538886fa848bd173f33ebe171196e7d334621dd718ff8cd5ea709082494b6c9c"
+        },
+        {
+          "file": "correlate-app-0.1.1-linux-x86_64.AppImage.zip.002",
+          "size": 28061115,
+          "sha256": "6fbc2e38894ebbd6a111671517bbe98fae8ee4f3a7cbe2ab0f660bd4a9744d1e"
+        }
+      ]
+    },
+    {
+      "of": "correlate-app-0.1.1-mac-arm64.dmg",
+      "parts": [
+        {
+          "file": "correlate-app-0.1.1-mac-arm64.dmg.zip.001",
+          "size": 99614720,
+          "sha256": "a98509b13c6ce6d7c51de318c8ad5a52e7639b9aeba7906e29e04f8c63209eea"
+        },
+        {
+          "file": "correlate-app-0.1.1-mac-arm64.dmg.zip.002",
+          "size": 33576134,
+          "sha256": "7ec27ca06ed57ee522ef00ad6052b85476d67bcc4b5be8bd8d5c1fecf4577603"
+        }
+      ]
+    },
+    {
+      "of": "correlate-app-0.1.1-mac-x64.dmg",
+      "parts": [
+        {
+          "file": "correlate-app-0.1.1-mac-x64.dmg.zip.001",
+          "size": 99614720,
+          "sha256": "568b449e4745d26cec0750f8804c9e5e7bf6534462452d1a56160d55558a6dfb"
+        },
+        {
+          "file": "correlate-app-0.1.1-mac-x64.dmg.zip.002",
+          "size": 37115201,
+          "sha256": "4c28f0a668640d49b2d7f295cba985f627c84830d372ae663bcdbd02f9412206"
+        }
+      ]
+    },
+    {
+      "of": "correlate-app-0.1.1-win-x64.exe",
+      "parts": [
+        {
+          "file": "correlate-app-0.1.1-win-x64.exe.zip.001",
+          "size": 99614720,
+          "sha256": "1bb7032d5deb36f291de9eccfeb36eff521b5d47d09d389cf00c8b72da35a0bc"
+        },
+        {
+          "file": "correlate-app-0.1.1-win-x64.exe.zip.002",
+          "size": 11616197,
+          "sha256": "c6fa3723216849d365b53ecc23c12752d815644263e72bb979289834617da874"
+        }
+      ]
+    },
+    {
+      "of": "correlate-sump-0.1.1-linux-amd64.tar",
+      "parts": [
+        {
+          "file": "correlate-sump-0.1.1-linux-amd64.tar.zip.001",
+          "size": 99614720,
+          "sha256": "7f3e1f13929c9cc55b7f5799c6963897a8d0614a416178902a0b6555704eabcd"
+        },
+        {
+          "file": "correlate-sump-0.1.1-linux-amd64.tar.zip.002",
+          "size": 53933779,
+          "sha256": "e84db231ce9fd1eeb062dce28cd68bb3eaa47f5f24c54fd72e6b20aacd32445a"
+        }
+      ]
+    },
+    {
+      "of": "correlate-sump-0.1.1-linux-arm64.tar",
+      "parts": [
+        {
+          "file": "correlate-sump-0.1.1-linux-arm64.tar.zip.001",
+          "size": 99614720,
+          "sha256": "155aff09191a48da93bbfdb983619d5f5d1714c0f1fc0c1d282d0443fb7fca31"
+        },
+        {
+          "file": "correlate-sump-0.1.1-linux-arm64.tar.zip.002",
+          "size": 49308898,
+          "sha256": "f2de424be26d258a3dfec73ddd5f58fa55ca5b0c2403c923322f120c2b8baaf7"
+        }
+      ]
     }
   ]
 }
